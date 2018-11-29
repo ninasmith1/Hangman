@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet'>
+</head>
+<body onload="setUp()">
+<div id="top">
+    <h2 id="title">Let's Play Hangman!</h2>
+    <div id="categoryText">Please choose a category:</div>
+    <select id="category">
+        <option>Animals</option>
+        <option>Colors</option>
+        <option>Fruits</option>
+        <option>Vegetables</option>
+    </select>
+    <button onclick="startGame()" id="startButton" class="w3-btn w3-round-large w3-border w3-border-white w3-purple">Start game!</button>
+    <br>
+    <div id="buttons"></div>
+</div>
+
+<div id="bottom">
+    <div id="word"></div>
+
+    <div id="guesses"></div>
+    <div id="guessedLetters"></div>
+
+    <div id="result"></div>
+    <img src="" id="picture">
+</div>
+
+
+
+</body>
+</html>

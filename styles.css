@@ -1,0 +1,43 @@
+body{
+    background: #faf4ff;
+}
+
+#top, #bottom{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: 'Alice';
+}
+
+#categoryText{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: purple;
+    font-size: 18px;
+}
+
+#title, #buttons{
+    position: relative;
+    margin: 20px auto 10px auto;
+    text-align: center;
+    font-family: 'Alice';
+    color: purple;
+    text-shadow: 3px 3px white;
+}
+
+#category{
+    position: relative;
+    right: 3px;
+    font-family: 'Alice';
+    color: purple;
+}
+
+#result, #guesses, #word, #guessedLetters{
+    color: purple;
+    font-size: 20px;
+}
+
+#picture{
+    width: 40%;
+}
+
